@@ -4,8 +4,8 @@ date: 2020-09-05
 description: # Add post description (optional)
 img: ./i-rest.jpg # Add image post (optional)
 tags: [Holidays, Hawaii]
-demo: github.com/Betsimisaraka/front-end-finals
-resource: https://betsimisaraka.github.io/front-end-finals/
+resource: github.com/Betsimisaraka/front-end-finals
+demo: https://betsimisaraka.github.io/front-end-finals/
 ---
 
 I build this project from scratch using sementic HTML5, CSS3 and CSS preprocessor like SASS to create a responsive webpage following BEM notation.

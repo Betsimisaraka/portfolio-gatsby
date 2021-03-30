@@ -4,8 +4,8 @@ date: 2020-11-13
 description: # Add post description (optional)
 img: ./software.jpg # Add image post (optional)
 tags: [High Productivity, Software] # add tag
-demo: github.com/Betsimisaraka/country-quiz
-resource: https://country-quiz-betsimisaraka.netlify.app/
+resource: github.com/Betsimisaraka/country-quiz
+demo: https://country-quiz-betsimisaraka.netlify.app/
 ---
 
 I created this fun quiz from scratch by using React including React Hooks.
