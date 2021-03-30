@@ -5,7 +5,7 @@ description: # Add post description (optional)
 img: ./software.jpg # Add image post (optional)
 tags: [React, Javascript] # add tag
 resource: Betsimisaraka/country-quiz
-demo: https://country-quiz-betsimisaraka.netlify.app/
+demo: country-quiz-betsimisaraka.netlify.app/
 ---
 
 I created this fun quiz from scratch by using React including React Hooks.

@@ -41,6 +41,18 @@ class BlogPostTemplate extends React.Component {
                     <span>{post.frontmatter.date}</span>
                   </div>
                 </header>
+                <div className="page-demo">
+                  <span>
+                    <a href={`https://github.com/${post.frontmatter.resource}`}>
+                      <i className="fa fa-github" aria-hidden="true" />
+                    </a>
+                  </span>
+                  <span>
+                    <a href={`https://${post.frontmatter.demo}`}>
+                      <i className="fa fa-external-link" aria-hidden="true" />
+                    </a>
+                  </span>
+                </div>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 <div className="page-footer">
                   <div className="page-tag">
@@ -78,6 +90,8 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "YYYY, MMM DD")
+        demo
+        resource
         tags
         img {
           childImageSharp {

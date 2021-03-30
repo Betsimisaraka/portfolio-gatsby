@@ -5,7 +5,7 @@ description: # Add post description (optional)
 img: ./how-to-start.jpg # Add image post (optional)
 tags: [Javascript, Vanilla Javascript] # add tag
 resource: Betsimisaraka/birthday-app
-demo: https://birthday-app-anita.netlify.app/
+demo: birthday-app-anita.netlify.app/
 ---
 
 I created this CRUD app with ES6 and ES2020. It displays lists of people from an API with their birthday. Also, I can add a new people to the list. I can edit people's information. I can delete a person. They are also sorted by the person how has the nearest birthday.
