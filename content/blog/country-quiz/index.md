@@ -3,7 +3,7 @@ title: Country quiz
 date: 2020-11-13
 description: # Add post description (optional)
 img: ./software.jpg # Add image post (optional)
-tags: [High Productivity, Software] # add tag
+tags: [React, Javascript] # add tag
 resource: Betsimisaraka/country-quiz
 demo: https://country-quiz-betsimisaraka.netlify.app/
 ---

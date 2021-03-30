@@ -3,7 +3,7 @@ title: Birthday app
 date: 2020-10-01
 description: # Add post description (optional)
 img: ./how-to-start.jpg # Add image post (optional)
-tags: [Programming, Learn] # add tag
+tags: [Javascript, Vanilla Javascript] # add tag
 resource: Betsimisaraka/birthday-app
 demo: https://birthday-app-anita.netlify.app/
 ---

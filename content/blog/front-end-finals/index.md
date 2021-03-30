@@ -3,7 +3,7 @@ title: Front ent finals
 date: 2020-09-05
 description: # Add post description (optional)
 img: ./i-rest.jpg # Add image post (optional)
-tags: [Holidays, Hawaii]
+tags: [Html, Css, Sass]
 resource: Betsimisaraka/front-end-finals
 demo: https://betsimisaraka.github.io/front-end-finals/
 ---

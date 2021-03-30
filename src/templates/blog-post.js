@@ -47,9 +47,7 @@ class BlogPostTemplate extends React.Component {
                     {post.frontmatter.tags &&
                       post.frontmatter.tags.map((tag) => (
                         <span key={tag}>
-                          <Link className="tag" to={`/tags/${kebabCase(tag)}/`}>
                             # {tag}
-                          </Link>
                         </span>
                       ))}
                   </div>
