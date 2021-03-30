@@ -2,7 +2,7 @@
 title: Front ent finals
 date: 2020-09-05
 description: # Add post description (optional)
-img: ./i-rest.jpg # Add image post (optional)
+img: ./photograf.webp # Add image post (optional)
 tags: [Html, Css, Sass]
 resource: Betsimisaraka/front-end-finals
 demo: betsimisaraka.github.io/front-end-finals/
