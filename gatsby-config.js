@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: `https://github.com/wangonya/flexible-gatsby`,
     social: {
       twitter: ``,
-      facebook: ``,
+      facebook: `/anita.rasoa.545`,
       github: ``,
       linkedin: ``,
       email: `anita.ras@onja.com`,
