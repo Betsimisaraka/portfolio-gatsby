@@ -46,7 +46,12 @@ class BlogIndex extends React.Component {
                     {node.frontmatter.date}&nbsp;&nbsp;—&nbsp;
                   </span>
                   <span className="post-words">
-                    {node.frontmatter.demo} Demo
+                    <a 
+                      href={`https://github.com/${node.frontmatter.resource}`}
+                      target="_blank"
+                    >
+                      <i className="fa fa-github" aria-hidden="true" />
+                    </a>
                   </span>
                 </div>
               </article>

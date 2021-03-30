@@ -4,7 +4,7 @@ date: 2020-10-01
 description: # Add post description (optional)
 img: ./how-to-start.jpg # Add image post (optional)
 tags: [Programming, Learn] # add tag
-resource: github.com/Betsimisaraka/birthday-app
+resource: Betsimisaraka/birthday-app
 demo: https://birthday-app-anita.netlify.app/
 ---
 

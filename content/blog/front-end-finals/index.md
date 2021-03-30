@@ -4,7 +4,7 @@ date: 2020-09-05
 description: # Add post description (optional)
 img: ./i-rest.jpg # Add image post (optional)
 tags: [Holidays, Hawaii]
-resource: github.com/Betsimisaraka/front-end-finals
+resource: Betsimisaraka/front-end-finals
 demo: https://betsimisaraka.github.io/front-end-finals/
 ---
 
