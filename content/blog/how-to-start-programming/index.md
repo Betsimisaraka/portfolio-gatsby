@@ -1,10 +1,12 @@
 ---
-title: How To Start Programming
-date: 2017-09-12 00:00:00 +0300
+title: Birthday app
+date: 2020-10-01
 description: # Add post description (optional)
 img: ./how-to-start.jpg # Add image post (optional)
 tags: [Programming, Learn] # add tag
 ---
+
+I created this CRUD app with ES6 and ES2020. It displays lists of people from an API with their birthday. Also, I can add a new people to the list. I can edit people's information. I can delete a person. They are also sorted by the person how has the nearest birthday.
 
 Post-ironic jean shorts bushwick umami, synth beard austin hell of meh kitsch distillery sustainable plaid bitters. Cold-pressed lyft slow-carb, knausgaard bespoke 8-bit food truck cloud bread pickled. Taiyaki bitters trust fund heirloom craft beer single-origin coffee. Readymade fam vape blue bottle cold-pressed, flannel polaroid. Aesthetic four dollar toast semiotics af bicycle rights. Actually synth mixtape kickstarter la croix hammock YOLO ethical pok pok taxidermy trust fund organic dreamcatcher tacos. Franzen four loko man braid letterpress umami offal. Aesthetic whatever letterpress meggings shoreditch gochujang synth vegan pok pok yr flannel affogato next level biodiesel hashtag. Banjo vaporware lyft unicorn tumblr. Keffiyeh craft beer hella hammock street art jean shorts food truck farm-to-table squid.
 
