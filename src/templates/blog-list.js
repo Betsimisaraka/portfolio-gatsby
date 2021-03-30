@@ -23,6 +23,7 @@ class BlogIndex extends React.Component {
         />
         <div className="content-box clearfix">
           {posts.map(({ node }) => {
+            console.log(node);
             return (
               <article className="post" key={node.fields.slug}>
                 {node.frontmatter.img &&
@@ -45,7 +46,7 @@ class BlogIndex extends React.Component {
                     {node.frontmatter.date}&nbsp;&nbsp;—&nbsp;
                   </span>
                   <span className="post-words">
-                    {node.timeToRead} minute read
+                    {node.frontmatter.demo} Demo
                   </span>
                 </div>
               </article>
@@ -106,6 +107,8 @@ export const pageQuery = graphql`
           timeToRead
           frontmatter {
             date(formatString: "YYYY, MMM DD")
+            demo
+            resource
             title
             img {
               childImageSharp {
