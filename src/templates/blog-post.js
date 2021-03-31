@@ -37,22 +37,21 @@ class BlogPostTemplate extends React.Component {
               <div className="wrap-content">
                 <header className="header-page">
                   <h1 className="page-title">{post.frontmatter.title}</h1>
-                  <div className="page-date">
-                    <span>{post.frontmatter.date}</span>
+                  <div className="page-source">
+                    <span>
+                      Source
+                      <a href={`https://github.com/${post.frontmatter.resource}`}>
+                        <i className="fa fa-github" aria-hidden="true" />
+                      </a>
+                    </span>
+                    <span>
+                      Demo
+                      <a href={`https://${post.frontmatter.demo}`}>
+                        <i className="fa fa-external-link" aria-hidden="true" />
+                      </a>
+                    </span>
                   </div>
                 </header>
-                <div className="page-demo">
-                  <span>
-                    <a href={`https://github.com/${post.frontmatter.resource}`}>
-                      <i className="fa fa-github" aria-hidden="true" />
-                    </a>
-                  </span>
-                  <span>
-                    <a href={`https://${post.frontmatter.demo}`}>
-                      <i className="fa fa-external-link" aria-hidden="true" />
-                    </a>
-                  </span>
-                </div>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 <div className="page-footer">
                   <div className="page-tag">

@@ -42,15 +42,19 @@ class BlogIndex extends React.Component {
                     <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
                   </h2>
                   <p>{node.excerpt}</p>
-                  <span className="post-date">
-                    {node.frontmatter.date}&nbsp;&nbsp;—&nbsp;
-                  </span>
-                  <span className="post-words">
+                  <span className="post-resource">
+                    Source
                     <a 
                       href={`https://github.com/${node.frontmatter.resource}`}
                       target="_blank"
                     >
                       <i className="fa fa-github" aria-hidden="true" />
+                    </a>
+                  </span>
+                  <span className="post-demo">
+                    Demo
+                    <a href={`https://${node.frontmatter.demo}`}>
+                      <i className="fa fa-external-link" aria-hidden="true" />
                     </a>
                   </span>
                 </div>
