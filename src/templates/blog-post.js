@@ -38,18 +38,22 @@ class BlogPostTemplate extends React.Component {
                 <header className="header-page">
                   <h1 className="page-title">{post.frontmatter.title}</h1>
                   <div className="page-source">
-                    <span>
-                      Source
+                    <button>
                       <a href={`https://github.com/${post.frontmatter.source}`}>
-                        <i className="fa fa-github" aria-hidden="true" />
+                        <span>Source</span>
+                        <span>
+                          <i className="fa fa-github" aria-hidden="true" />
+                        </span>
                       </a>
-                    </span>
-                    <span>
-                      Demo
+                    </button>
+                    <button>
                       <a href={`https://${post.frontmatter.demo}`}>
-                        <i className="fa fa-external-link" aria-hidden="true" />
+                        <span>Demo</span>
+                        <span>
+                          <i className="fa fa-external-link" aria-hidden="true" />
+                        </span>
                       </a>
-                    </span>
+                    </button>
                   </div>
                 </header>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -90,7 +94,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "YYYY, MMM DD")
         demo
-        resource
+        source
         tags
         img {
           childImageSharp {

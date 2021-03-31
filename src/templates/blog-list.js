@@ -42,21 +42,22 @@ class BlogIndex extends React.Component {
                     <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
                   </h2>
                   <p>{node.excerpt}</p>
-                  <span className="post-resource">
-                    Source
-                    <a 
-                      href={`https://github.com/${node.frontmatter.source}`}
-                      target="_blank"
-                    >
-                      <i className="fa fa-github" aria-hidden="true" />
+                  <button className="post-resource">
+                    <a href={`https://github.com/${node.frontmatter.source}`}>
+                      <span>Source</span>
+                      <span>
+                        <i className="fa fa-github" aria-hidden="true" />
+                      </span>
                     </a>
-                  </span>
-                  <span className="post-demo">
-                    Dem
+                  </button>
+                  <button className="post-demo">
                     <a href={`https://${node.frontmatter.demo}`}>
-                      <i className="fa fa-external-link" aria-hidden="true" />
+                      <span>Demo</span>
+                      <span>
+                        <i className="fa fa-external-link" aria-hidden="true" />
+                      </span>
                     </a>
-                  </span>
+                  </button>
                 </div>
               </article>
             )
@@ -117,7 +118,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "YYYY, MMM DD")
             demo
-            resource
+            source
             title
             img {
               childImageSharp {

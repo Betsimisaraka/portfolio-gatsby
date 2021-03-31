@@ -1,5 +1,6 @@
 ---
 title: Front ent finals
+date: 2020-09-05
 description: # Add post description (optional)
 img: ./photograf.webp # Add image post (optional)
 tags: [Html, Css, Sass]

@@ -1,5 +1,6 @@
 ---
 title: Birthday app
+date: 2020-10-01
 description: # Add post description (optional)
 img: ./birthday-app.webp # Add image post (optional)
 tags: [Javascript, Vanilla Javascript] # add tag

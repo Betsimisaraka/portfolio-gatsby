@@ -6,10 +6,10 @@ module.exports = {
     siteUrl: `https://github.com/wangonya/flexible-gatsby`,
     social: {
       twitter: ``,
-      facebook: `/anita.rasoa.545`,
+      facebook: ``,
       github: `Betsimisaraka`,
       linkedin: ``,
-      email: `anita.ras@onja.com`,
+      email: `anita.ras@onja.org`,
     },
   },
   plugins: [

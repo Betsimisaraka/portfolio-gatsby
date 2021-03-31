@@ -1,5 +1,6 @@
 ---
 title: Country quiz
+date: 2020-11-13
 description: # Add post description (optional)
 img: ./country-quiz.webp # Add image post (optional)
 tags: [React, Javascript] # add tag
