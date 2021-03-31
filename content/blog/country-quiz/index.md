@@ -3,7 +3,7 @@ title: Country quiz
 description: # Add post description (optional)
 img: ./country-quiz.webp # Add image post (optional)
 tags: [React, Javascript] # add tag
-resource: Betsimisaraka/country-quiz
+source: Betsimisaraka/country-quiz
 demo: country-quiz-betsimisaraka.netlify.app/
 ---
 

@@ -40,7 +40,7 @@ class BlogPostTemplate extends React.Component {
                   <div className="page-source">
                     <span>
                       Source
-                      <a href={`https://github.com/${post.frontmatter.resource}`}>
+                      <a href={`https://github.com/${post.frontmatter.source}`}>
                         <i className="fa fa-github" aria-hidden="true" />
                       </a>
                     </span>

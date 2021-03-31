@@ -3,7 +3,7 @@ title: Birthday app
 description: # Add post description (optional)
 img: ./birthday-app.webp # Add image post (optional)
 tags: [Javascript, Vanilla Javascript] # add tag
-resource: Betsimisaraka/birthday-app
+source: Betsimisaraka/birthday-app
 demo: birthday-app-anita.netlify.app/
 ---
 

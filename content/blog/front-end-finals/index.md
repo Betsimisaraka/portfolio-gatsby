@@ -3,7 +3,7 @@ title: Front ent finals
 description: # Add post description (optional)
 img: ./photograf.webp # Add image post (optional)
 tags: [Html, Css, Sass]
-resource: Betsimisaraka/front-end-finals
+source: Betsimisaraka/front-end-finals
 demo: betsimisaraka.github.io/front-end-finals/
 ---
 
