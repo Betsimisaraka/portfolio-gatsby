@@ -3,7 +3,7 @@ module.exports = {
     title: `Anita Portfolio`,
     description: `I am a web developer focusing on front-end development. I always love learning new skills and getting my hands dirty.`,
     author: `Anita Rasoa`,
-    siteUrl: `https://github.com/wangonya/flexible-gatsby`,
+    siteUrl: `https://github.com/Betsimisaraka/portfolio-gatsby`,
     social: {
       twitter: ``,
       facebook: ``,
