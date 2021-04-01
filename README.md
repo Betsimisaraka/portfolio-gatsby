@@ -1,18 +1,27 @@
 <h1 align="center">
-  Flexible Gatsby
-</h1>
+  Anita Portfolio
+</h1> 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a0a6e226-6c7a-43e0-bab6-0c658c8abca5/deploy-status)](https://app.netlify.com/sites/flexible-gatsby/deploys)
+<div align="center">
+  <h3>
+    <a href="https://github.com/Betsimisaraka/portfolio-gatsby">
+      Source code
+    </a>
+    <span> | </span>
+    <a href="https://portfolio-gatsby-anita.netlify.app/">
+      Demo
+    </a>
+  </h3>
+</div>
 
-A simple minimalist Gatsby starter for your blog. [Demo](https://flexible-gatsby.netlify.com/).
+This portfolio is made with gatsby. I got the template from gatsby and then I modified all of the contents including texts and images.
 
-Inspired by [flexible-jekyll](https://github.com/artemsheludko/flexible-jekyll).
+You can see the list of my projects in the home page and a little bit information about me. Projects details page contains the description, screenshots, link to demo and source code.
 
-![home-page-screenshot](./static/promo-img.jpg)
+## Overview
 
-![home-page-screenshot](./static/home-page.jpg)
-
-![blog-page-screenshot](./static/post-example.jpg)
+![screenshot](./static/home-page.webp)
+![screenshot](./static/description-page.webp)
 
 ## Quick Start 🚀
 
@@ -22,7 +31,7 @@ Inspired by [flexible-jekyll](https://github.com/artemsheludko/flexible-jekyll).
 
     ```sh
     # create a new Gatsby site using the-plain-gatsby starter
-    gatsby new my-blog https://github.com/wangonya/flexible-gatsby
+    gatsby new portfolio-gatsby https://github.com/Betsimisaraka/portfolio-gatsby
     ```
 
 2.  **Start developing.**
@@ -30,7 +39,7 @@ Inspired by [flexible-jekyll](https://github.com/artemsheludko/flexible-jekyll).
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd my-blog/
+    cd portfolio-gatsby/
     gatsby develop
     ```
 
@@ -40,12 +49,8 @@ Inspired by [flexible-jekyll](https://github.com/artemsheludko/flexible-jekyll).
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Edit `gatsby.config.js` to update site metadata.
+## Contact
 
-    Add blog posts in markdown in `content/blog`. Example blog posts have been provided.
+Github [Betsimisaraka](https://github.com/Betsimisaraka)
 
-## Contributors
-
-Much thanks to these contributors for making this project awesome:
-
--   [@sparky005](https://github.com/sparky005)
+The portfolio based on https://github.com/wangonya/flexible-gatsby
