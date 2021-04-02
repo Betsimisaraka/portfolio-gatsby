@@ -72,7 +72,7 @@ const Sidebar = ({ siteMetadata }) => (
         </section>
         <div className="copyright">
           <p>
-            {new Date().getFullYear()} &copy; {siteMetadata.author}
+            {new Date().getFullYear()} {siteMetadata.author}
           </p>
         </div>
       </footer>
