@@ -1,5 +1,5 @@
 ---
-title: Front ent finals
+title: Front end finals
 date: 2020-09-05
 description: # Add post description (optional)
 img: ./photograf.png # Add image post (optional)
