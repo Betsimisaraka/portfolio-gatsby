@@ -2,7 +2,7 @@
 title: Front end finals
 date: 2020-09-05
 description: # Add post description (optional)
-img: ./photograf.png # Add image post (optional)
+img: ./photograf.webp # Add image post (optional)
 tags: [Html, Css, Sass]
 source: Betsimisaraka/front-end-finals
 demo: betsimisaraka.github.io/front-end-finals/
