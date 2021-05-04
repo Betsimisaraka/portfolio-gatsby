@@ -29,7 +29,9 @@ class BlogPostTemplate extends React.Component {
                       key={
                         post.frontmatter.img.childImageSharp.gatsbyImageData.src
                       }
-                      alt=""
+                      alt="My projects in my portfolio"
+                      aria-hidden="true"
+                      tabindex="-1"
                     />
                   </figure>
                 </div>
@@ -39,7 +41,10 @@ class BlogPostTemplate extends React.Component {
                   <h1 className="page-title">{post.frontmatter.title}</h1>
                   <div className="page-source">
                     <button>
-                      <a href={`https://github.com/${post.frontmatter.source}`}>
+                      <a 
+                        href={`https://github.com/${post.frontmatter.source}`}
+                        aria-label="Find the source code on github here"
+                      >
                         <span>Source</span>
                         <span>
                           <i className="fa fa-github" aria-hidden="true" />
@@ -47,7 +52,10 @@ class BlogPostTemplate extends React.Component {
                       </a>
                     </button>
                     <button>
-                      <a href={`https://${post.frontmatter.demo}`}>
+                      <a 
+                        href={`https://${post.frontmatter.demo}`} 
+                        aria-label="Find the finished website here"
+                      >
                         <span>Demo</span>
                         <span>
                           <i className="fa fa-external-link" aria-hidden="true" />

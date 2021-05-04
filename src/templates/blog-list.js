@@ -9,11 +9,11 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-    const { currentPage, numPages } = this.props.pageContext
-    const isFirst = currentPage === 1
-    const isLast = currentPage === numPages
-    const prevPage = currentPage - 1 === 1 ? '/' : (currentPage - 1).toString()
-    const nextPage = (currentPage + 1).toString()
+    // const { currentPage, numPages } = this.props.pageContext
+    // const isFirst = currentPage === 1
+    // const isLast = currentPage === numPages
+    // const prevPage = currentPage - 1 === 1 ? '/' : (currentPage - 1).toString()
+    // const nextPage = (currentPage + 1).toString()
 
     return (
       <DefaultLayout>
@@ -32,6 +32,7 @@ class BlogIndex extends React.Component {
                     <Link
                       to={node.fields.slug}
                       className="post-thumbnail"
+                      ria-label="Read more about the projects"
                       style={{
                         backgroundImage: `url(${node.frontmatter.img.childImageSharp.gatsbyImageData.images.fallback.src})`,
                       }}
@@ -39,11 +40,14 @@ class BlogIndex extends React.Component {
                   )}
                 <div className="post-content">
                   <h2 className="post-title">
-                    <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+                    <Link to={node.fields.slug} ria-label="Read more about the projects">{node.frontmatter.title}</Link>
                   </h2>
                   <p>{node.excerpt}</p>
                   <button className="post-resource">
-                    <a href={`https://github.com/${node.frontmatter.source}`}>
+                    <a 
+                      href={`https://github.com/${node.frontmatter.source}`}
+                      aria-label="Find the source code on github here"
+                    >
                       <span>Source</span>
                       <span>
                         <i className="fa fa-github" aria-hidden="true" />
@@ -51,7 +55,10 @@ class BlogIndex extends React.Component {
                     </a>
                   </button>
                   <button className="post-demo">
-                    <a href={`https://${node.frontmatter.demo}`}>
+                    <a 
+                      href={`https://${node.frontmatter.demo}`}
+                      aria-label="Find the finished website here"
+                    >
                       <span>Demo</span>
                       <span>
                         <i className="fa fa-external-link" aria-hidden="true" />
@@ -62,32 +69,6 @@ class BlogIndex extends React.Component {
               </article>
             )
           })}
-        </div>
-
-        <div className="container">
-          <nav className="pagination" role="pagination">
-            <ul>
-              {!isFirst && (
-                <p>
-                  <Link to={prevPage} rel="prev" className="newer-posts">
-                    ← Previous Page
-                  </Link>
-                </p>
-              )}
-              <p>
-                <span className="page-number">
-                  Page {currentPage} of {numPages}
-                </span>
-              </p>
-              {!isLast && (
-                <p>
-                  <Link to={nextPage} rel="next" className="older-posts">
-                    Next Page →
-                  </Link>
-                </p>
-              )}
-            </ul>
-          </nav>
         </div>
       </DefaultLayout>
     )
