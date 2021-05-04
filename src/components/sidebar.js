@@ -9,7 +9,7 @@ const Sidebar = ({ siteMetadata }) => (
       <header>
         <div className="about">
           <div className="cover-author-image">
-            <Link to="/">
+            <Link to="/" aria-label="Go back to the home page when you are on the post page">
               <img src={Logo} alt={siteMetadata.author}  aria-hidden="true" tabindex="-1" />
             </Link>
           </div>
