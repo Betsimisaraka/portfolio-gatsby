@@ -9,12 +9,7 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-    // const { currentPage, numPages } = this.props.pageContext
-    // const isFirst = currentPage === 1
-    // const isLast = currentPage === numPages
-    // const prevPage = currentPage - 1 === 1 ? '/' : (currentPage - 1).toString()
-    // const nextPage = (currentPage + 1).toString()
-
+   
     return (
       <DefaultLayout>
         <SEO
@@ -32,7 +27,7 @@ class BlogIndex extends React.Component {
                     <Link
                       to={node.fields.slug}
                       className="post-thumbnail"
-                      ria-label="Read more about the projects"
+                      aria-label="Read more about the projects"
                       style={{
                         backgroundImage: `url(${node.frontmatter.img.childImageSharp.gatsbyImageData.images.fallback.src})`,
                       }}
@@ -40,7 +35,7 @@ class BlogIndex extends React.Component {
                   )}
                 <div className="post-content">
                   <h2 className="post-title">
-                    <Link to={node.fields.slug} ria-label="Read more about the projects">{node.frontmatter.title}</Link>
+                    <Link to={node.fields.slug} aria-label="Read more about the projects">{node.frontmatter.title}</Link>
                   </h2>
                   <p>{node.excerpt}</p>
                   <button className="post-resource">
