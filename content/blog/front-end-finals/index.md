@@ -5,7 +5,7 @@ description: # Add post description (optional)
 img: ./photograf.webp # Add image post (optional)
 tags: [Html, Css, Sass]
 source: Betsimisaraka/front-end-finals
-demo: http://photograph.anita.onja.org/
+demo: photograph.anita.onja.org/
 ---
 This a portfolio page which a photographer can use to demonstrate their work.
 

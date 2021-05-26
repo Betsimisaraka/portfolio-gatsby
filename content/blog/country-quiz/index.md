@@ -5,7 +5,7 @@ description: # Add post description (optional)
 img: ./country-quiz.png # Add image post (optional)
 tags: [React, JavaScript] # add tag
 source: Betsimisaraka/country-quiz
-demo: http://country-quiz.anita.onja.org/
+demo: country-quiz.anita.onja.org/
 ---
 This app enables the user to learn more about the world's geography in a fun and interactive way.  
 

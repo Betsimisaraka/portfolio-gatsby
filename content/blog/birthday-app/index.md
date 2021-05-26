@@ -5,7 +5,7 @@ description: # Add post description (optional)
 img: ./birthday.png # Add image post (optional)
 tags: [HTML, CSS, Vanilla JavaScript] # add tag
 source: Betsimisaraka/birthday-app
-demo: http://birthday-app.anita.onja.org/
+demo: birthday-app.anita.onja.org/
 ---
 
 This app will inform the user the upcoming birthday, so that they will never forget whose birthday is coming next.

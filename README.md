@@ -8,7 +8,7 @@
       Source code
     </a>
     <span> | </span>
-    <a href="https://portfolio-gatsby-anita.netlify.app/">
+    <a href="https://anita.onja.org/">
       Demo
     </a>
   </h3>
