@@ -1,7 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Anita Portfolio`,
-    description: `I am a web developer focusing on front-end development. I always love learning new skills and getting my hands dirty.`,
+    description: `I am a web developer focusing on front-end development. I always love learning new skills whether it is language or coding, as well as getting my hands dirty by applying and acquiring knowledge in a practice-first approach.
+                  I feel comfortable with HTML, CSS/SASS, Vanilla JavaScritp and React. I am willing to emplement those skills and excited to enhance them as well.
+                  I am from Vavatenina on the East Coast of Madagascar and currently live in Mahanoro where Onja is located. I love being around people and I enjoy collaborating and interacting with others.
+    `,
     author: `Anita Rasoa`,
     siteUrl: `https://github.com/Betsimisaraka/portfolio-gatsby`,
     social: {
