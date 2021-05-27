@@ -57,7 +57,7 @@ class BlogIndex extends React.Component {
                   </button>
                   <button className="post-demo">
                     <a
-                      href={`https://${node.frontmatter.demo}`}
+                      href={`http://${node.frontmatter.demo}`}
                       aria-label="Find the finished website here"
                     >
                       <span>Demo</span>

@@ -53,7 +53,7 @@ class BlogPostTemplate extends React.Component {
                     </button>
                     <button>
                       <a
-                        href={`https://${post.frontmatter.demo}`}
+                        href={`http://${post.frontmatter.demo}`}
                         aria-label="Find the finished website here"
                       >
                         <span>Demo</span>
