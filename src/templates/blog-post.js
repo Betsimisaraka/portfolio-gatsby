@@ -41,7 +41,7 @@ class BlogPostTemplate extends React.Component {
                   <h1 className="page-title">{post.frontmatter.title}</h1>
                   <div className="page-source">
                     <button>
-                      <a 
+                      <a
                         href={`https://github.com/${post.frontmatter.source}`}
                         aria-label="Find the source code on github here"
                       >
@@ -52,13 +52,16 @@ class BlogPostTemplate extends React.Component {
                       </a>
                     </button>
                     <button>
-                      <a 
-                        href={`https://${post.frontmatter.demo}`} 
+                      <a
+                        href={`https://${post.frontmatter.demo}`}
                         aria-label="Find the finished website here"
                       >
                         <span>Demo</span>
                         <span>
-                          <i className="fa fa-external-link" aria-hidden="true" />
+                          <i
+                            className="fa fa-external-link"
+                            aria-hidden="true"
+                          />
                         </span>
                       </a>
                     </button>
@@ -69,9 +72,7 @@ class BlogPostTemplate extends React.Component {
                   <div className="page-tag">
                     {post.frontmatter.tags &&
                       post.frontmatter.tags.map((tag) => (
-                        <span key={tag}>
-                            # {tag}
-                        </span>
+                        <span key={tag}># {tag}</span>
                       ))}
                   </div>
                 </div>
@@ -106,7 +107,11 @@ export const pageQuery = graphql`
         tags
         img {
           childImageSharp {
-            gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH, formats: [AUTO, AVIF, WEBP])
+            gatsbyImageData(
+              placeholder: BLURRED
+              layout: FULL_WIDTH
+              formats: [AUTO, AVIF, WEBP]
+            )
           }
         }
       }

@@ -9,7 +9,7 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-   
+
     return (
       <DefaultLayout>
         <SEO
@@ -18,7 +18,7 @@ class BlogIndex extends React.Component {
         />
         <div className="content-box clearfix">
           {posts.map(({ node }) => {
-            console.log(node);
+            console.log(node)
             return (
               <article className="post" key={node.fields.slug}>
                 {node.frontmatter.img &&
@@ -36,11 +36,16 @@ class BlogIndex extends React.Component {
                   )}
                 <div className="post-content">
                   <h2 className="post-title">
-                    <Link to={node.fields.slug} aria-label="Read more about the projects">{node.frontmatter.title}</Link>
+                    <Link
+                      to={node.fields.slug}
+                      aria-label="Read more about the projects"
+                    >
+                      {node.frontmatter.title}
+                    </Link>
                   </h2>
                   <p>{node.excerpt}</p>
                   <button className="post-resource">
-                    <a 
+                    <a
                       href={`https://github.com/${node.frontmatter.source}`}
                       aria-label="Find the source code on github here"
                     >
@@ -51,7 +56,7 @@ class BlogIndex extends React.Component {
                     </a>
                   </button>
                   <button className="post-demo">
-                    <a 
+                    <a
                       href={`https://${node.frontmatter.demo}`}
                       aria-label="Find the finished website here"
                     >
@@ -99,7 +104,11 @@ export const pageQuery = graphql`
             title
             img {
               childImageSharp {
-                gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH, formats: [AUTO, AVIF, WEBP])
+                gatsbyImageData(
+                  placeholder: BLURRED
+                  layout: FULL_WIDTH
+                  formats: [AUTO, AVIF, WEBP]
+                )
               }
             }
           }
