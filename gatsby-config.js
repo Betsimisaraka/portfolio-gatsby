@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Anita Portfolio`,
-    description: `I am a web developer focusing on front-end development. I always love learning new skills whether it is language or coding, as well as getting my hands dirty by applying and acquiring knowledge in a practice-first approach.
-    `,
+    description: `I am a web developer focusing on front-end development.`,
     author: `Anita Rasoa`,
     siteUrl: `https://github.com/Betsimisaraka/portfolio-gatsby`,
     social: {
