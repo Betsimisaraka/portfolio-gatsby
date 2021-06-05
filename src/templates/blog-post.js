@@ -40,31 +40,65 @@ class BlogPostTemplate extends React.Component {
                 <header className="header-page">
                   <h1 className="page-title">{post.frontmatter.title}</h1>
                   <div className="page-source">
-                    <button>
-                      <a
-                        href={`https://github.com/${post.frontmatter.source}`}
-                        aria-label="Find the source code on github here"
-                      >
-                        <span>Source</span>
-                        <span>
-                          <i className="fa fa-github" aria-hidden="true" />
-                        </span>
-                      </a>
-                    </button>
-                    <button>
-                      <a
-                        href={`http://${post.frontmatter.demo}`}
-                        aria-label="Find the finished website here"
-                      >
-                        <span>Demo</span>
-                        <span>
-                          <i
-                            className="fa fa-external-link"
-                            aria-hidden="true"
-                          />
-                        </span>
-                      </a>
-                    </button>
+                    {post.frontmatter.source && post.frontmatter.demo ? (
+                      <ul>
+                        <li>
+                          <a
+                            href={`https://github.com/${post.frontmatter.source}`}
+                            aria-label="Find the source code on github here"
+                          >
+                            <span>Source</span>
+                            <span>
+                              <i className="fa fa-github" aria-hidden="true" />
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href={`http://${post.frontmatter.demo}`}
+                            aria-label="Find the finished website here"
+                          >
+                            <span>Demo</span>
+                            <span>
+                              <i
+                                className="fa fa-external-link"
+                                aria-hidden="true"
+                              />
+                            </span>
+                          </a>
+                        </li>
+                      </ul>
+                    ) : (
+                      <ul>
+                        <li>
+                          <a
+                            href={`https://github.com/${post.frontmatter.github}`}
+                            target="_blank"
+                            aria-label="My github to see all the projects that I have done"
+                          >
+                            <span>Github</span>
+                            <span>
+                              <i className="fa fa-github" aria-hidden="true" />
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href={`mailto:${post.frontmatter.email}`}
+                            target="_blank"
+                            aria-label="Contact me with my email here"
+                          >
+                            <span>Email</span>
+                            <span>
+                              <i
+                                className="fa fa-envelope-o"
+                                aria-hidden="true"
+                              />
+                            </span>
+                          </a>
+                        </li>
+                      </ul>
+                    )}
                   </div>
                 </header>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -104,6 +138,8 @@ export const pageQuery = graphql`
         date(formatString: "YYYY, MMM DD")
         demo
         source
+        github
+        email
         tags
         img {
           childImageSharp {

@@ -64,7 +64,7 @@
     }
   }
   p {
-    font-size: 16px;
+    font-size: 18px;
     margin: 0 0 10px;
   }
 }
@@ -192,6 +192,12 @@ footer {
         }
       }
     }
+    .post-lists {
+      list-style: none;
+      display: inline-flex;
+      margin: 0;
+      padding: 0;
+    }
     .post-resource {
       margin-right: 1rem;
     }
@@ -207,6 +213,7 @@ footer {
     }
     p {
       margin-top: 0;
+      font-size: 18px;
     }
   }
 }

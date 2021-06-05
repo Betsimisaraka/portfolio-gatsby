@@ -1,6 +1,6 @@
 <h1 align="center">
   Anita Portfolio
-</h1> 
+</h1>
 
 <div align="center">
   <h3>
@@ -20,7 +20,7 @@ You can see the list of my projects in the home page and a little bit informatio
 
 ## Overview
 
-![screenshot](./static/home-page.webp)
+![screenshot](./static/home-page-screenshot.webp)
 ![screenshot](./static/description-page.webp)
 
 ## Quick Start 🚀

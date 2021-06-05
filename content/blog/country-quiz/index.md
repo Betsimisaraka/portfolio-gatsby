@@ -3,7 +3,7 @@ title: Country quiz
 date: 2020-11-13
 description: # Add post description (optional)
 img: ./country-quiz.png # Add image post (optional)
-tags: [React, JavaScript] # add tag
+tags: [Html, Css, React, JavaScript] # add tag
 source: Betsimisaraka/country-quiz
 demo: country-quiz.anita.onja.org
 ---

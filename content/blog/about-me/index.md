@@ -5,7 +5,7 @@ description: # Add post description (optional)
 img: ./anita.jpg # Add image post (optional)
 tags: [
     HTML,
-    CSS,
+    CSS/SASS,
     Vanilla JavaScript,
     TypeScript,
     React,
@@ -16,8 +16,8 @@ tags: [
     Gatsby,
     React Native,
   ] # add tag
-source: Betsimisaraka
-demo: mailto:anita.ras@onja.org
+github: Betsimisaraka
+email: anita.ras@onja.org
 ---
 
 I always love learning new skills whether it is language or coding, as well as getting my hands dirty by applying and acquiring knowledge in a practice-first approach.

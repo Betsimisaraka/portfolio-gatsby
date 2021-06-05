@@ -8,7 +8,7 @@ source: Betsimisaraka/front-end-finals
 demo: photograph.anita.onja.org
 ---
 
-This a portfolio page which a photographer can use to demonstrate their work.
+This is a portfolio page which can be used by a photographer to demonstrate their work.
 
 I built this project from scratch using semantic HTML, CSS and SASS as a CSS preprocessor to create a responsive webpage following BEM notation. It also marked my first go at writing Vanilla JavaScript which I used to get the image slider working smoothly.
 

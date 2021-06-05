@@ -44,28 +44,65 @@ class BlogIndex extends React.Component {
                     </Link>
                   </h2>
                   <p>{node.excerpt}</p>
-                  <button className="post-resource">
-                    <a
-                      href={`https://github.com/${node.frontmatter.source}`}
-                      aria-label="Find the source code on github here"
-                    >
-                      <span>Source</span>
-                      <span>
-                        <i className="fa fa-github" aria-hidden="true" />
-                      </span>
-                    </a>
-                  </button>
-                  <button className="post-demo">
-                    <a
-                      href={`http://${node.frontmatter.demo}`}
-                      aria-label="Find the finished website here"
-                    >
-                      <span>Demo</span>
-                      <span>
-                        <i className="fa fa-external-link" aria-hidden="true" />
-                      </span>
-                    </a>
-                  </button>
+                  {node.frontmatter.source && node.frontmatter.demo ? (
+                    <ul className="post-lists">
+                      <li className="post-resource">
+                        <a
+                          href={`https://github.com/${node.frontmatter.source}`}
+                          aria-label="Find the source code on github here"
+                        >
+                          <span>Source</span>
+                          <span>
+                            <i className="fa fa-github" aria-hidden="true" />
+                          </span>
+                        </a>
+                      </li>
+                      <li className="post-demo">
+                        <a
+                          href={`http://${node.frontmatter.demo}`}
+                          aria-label="Find the finished website here"
+                        >
+                          <span>Demo</span>
+                          <span>
+                            <i
+                              className="fa fa-external-link"
+                              aria-hidden="true"
+                            />
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+                  ) : (
+                    <ul className="post-lists">
+                      <li className="post-resource">
+                        <a
+                          href={`https://github.com/${node.frontmatter.github}`}
+                          target="_blank"
+                          aria-label="My github to see all the projects that I have done"
+                        >
+                          <span>Github</span>
+                          <span>
+                            <i className="fa fa-github" aria-hidden="true" />
+                          </span>
+                        </a>
+                      </li>
+                      <li className="post-demo">
+                        <a
+                          href={`mailto:${node.frontmatter.email}`}
+                          target="_blank"
+                          aria-label="Contact me with my email here"
+                        >
+                          <span>Email</span>
+                          <span>
+                            <i
+                              className="fa fa-envelope-o"
+                              aria-hidden="true"
+                            />
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+                  )}
                 </div>
               </article>
             )
@@ -102,6 +139,8 @@ export const pageQuery = graphql`
             demo
             source
             title
+            github
+            email
             img {
               childImageSharp {
                 gatsbyImageData(
