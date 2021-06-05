@@ -21,7 +21,7 @@ You can see the list of my projects in the home page and a little bit informatio
 ## Overview
 
 ![screenshot](./static/home-page-screenshot.webp)
-![screenshot](./static/description-page.webp)
+![screenshot](./static/post-page-screenshot.webp)
 
 ## Quick Start 🚀
 
