@@ -14,7 +14,7 @@
   </h3>
 </div>
 
-This portfolio is made with gatsby. I got the template from gatsby and then I modified all of the contents including texts and images.
+This portfolio is made with Gatsby. I got the template from Gatsby and then I modified all of the contents including texts and images.
 
 You can see the list of my projects in the home page and a little bit information about me. Projects details page contains the description, screenshots, link to demo and source code.
 
@@ -31,7 +31,7 @@ You can see the list of my projects in the home page and a little bit informatio
 
     ```sh
     # create a new Gatsby site using the-plain-gatsby starter
-    gatsby new portfolio-gatsby https://github.com/Betsimisaraka/portfolio-gatsby
+    Gatsby new portfolio-gatsby https://github.com/Betsimisaraka/portfolio-gatsby
     ```
 
 2.  **Start developing.**
