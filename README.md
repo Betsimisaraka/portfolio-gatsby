@@ -16,7 +16,7 @@
 
 This portfolio is made with Gatsby. I got the template from Gatsby and then I modified all of the contents including texts and images.
 
-You can see the list of my projects in the home page and a little bit information about me. Projects details page contains the description, screenshots, link to demo and source code.
+You can see the list of my projects in the home page and a little bit information about me. Project detail page contains the description, screenshots, link to demo and source code.
 
 ## Overview
 
